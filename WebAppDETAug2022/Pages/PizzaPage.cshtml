@@ -41,8 +41,8 @@
             <td>@pizza.Size</td>
             <td>@Model.GlutenFreeText(pizza)</td>
             <td>
-                <form method="post" asp-page-handler="Delete" asp-route-id="@pizza.Id">
-                    <button class="btn btn-danger">Delete</button>
+                <form method="post" asp-page-handler="Edit" asp-route-id="@pizza.Id">
+                    <button class="btn btn-danger">Edit</button>
                 </form>
             </td>
         </tr>
