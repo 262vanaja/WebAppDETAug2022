@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API demo1", "API demo1\API 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAPIClient", "ConsoleAPIClient\ConsoleAPIClient.csproj", "{541869D1-1DED-4D69-B7C5-E7C6BBF06004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAPI11", "ToDoAPI11\ToDoAPI11.csproj", "{87650BD0-2CCF-4A98-AA1B-8D5234226D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoAPI11", "ToDoAPI11\ToDoAPI11.csproj", "{87650BD0-2CCF-4A98-AA1B-8D5234226D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDDemo", "TDDDemo\TDDDemo.csproj", "{F00D90ED-6F1C-4EA2-BEDE-C5D9D986FED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.API", "Library.API\Library.API.csproj", "{244F2DCF-9B8E-4DC8-89F3-1231CD672C5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libraryAPI.Tests", "libraryAPI.Tests\libraryAPI.Tests.csproj", "{83372A8B-1A84-4412-A91F-C566ADD6E768}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{87650BD0-2CCF-4A98-AA1B-8D5234226D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87650BD0-2CCF-4A98-AA1B-8D5234226D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87650BD0-2CCF-4A98-AA1B-8D5234226D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00D90ED-6F1C-4EA2-BEDE-C5D9D986FED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00D90ED-6F1C-4EA2-BEDE-C5D9D986FED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00D90ED-6F1C-4EA2-BEDE-C5D9D986FED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00D90ED-6F1C-4EA2-BEDE-C5D9D986FED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244F2DCF-9B8E-4DC8-89F3-1231CD672C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244F2DCF-9B8E-4DC8-89F3-1231CD672C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244F2DCF-9B8E-4DC8-89F3-1231CD672C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244F2DCF-9B8E-4DC8-89F3-1231CD672C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83372A8B-1A84-4412-A91F-C566ADD6E768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83372A8B-1A84-4412-A91F-C566ADD6E768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83372A8B-1A84-4412-A91F-C566ADD6E768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83372A8B-1A84-4412-A91F-C566ADD6E768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
